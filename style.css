@@ -1,0 +1,122 @@
+{
+  box-sizing: border-box;
+}
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #CF2B2B;
+  filter: drop-shadow(0px 4px 4px gray);
+  width: 414px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+header h1 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+header p {
+  font-family: "'Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+main {
+  margin-top: 92px;
+}
+section {
+  background-color: #eeeeee;
+  width: 414px;
+  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400px;
+  font-size: 26px;
+  color: #333333;
+  margin-top: 31px;
+  margin-bottom: -17px;
+}
+.escolha {
+  background-color: #eeeeee;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 31px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.seleciona {
+  background-color: #FFFFFF;
+  width: 172px;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  padding: 10px;
+  margin-left: 16px;
+}
+section img {
+  width: 144px;
+  height: 87px;
+  border-radius: 4px;
+}
+.seleciona h3 {
+  font-family: "'Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.seleciona p {
+  font-family: "'Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #A6A6A6;
+}
+.seleciona h4 {
+  font-family: "'Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000; 
+  margin-top: 9px;
+  margin-bottom: 13px;
+}
+.final {
+  background-color: #FFFFFF;
+  width: 414px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.fechar-pedido {
+  background-color: #CBCBCB;
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "'Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
