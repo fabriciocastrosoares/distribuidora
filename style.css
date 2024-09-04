@@ -17,6 +17,7 @@ header {
   justify-content: center;
   position: fixed;
   top: 0;
+  z-index: 2;
 }
 header h1 {
   font-family: "Righteous", sans-serif;
@@ -49,7 +50,7 @@ section h2 {
   margin-top: 31px;
   margin-bottom: -17px;
 }
-.escolha {
+.carnes, .bebidas, .sobremesas {
   background-color: #eeeeee;
   width: 100%;
   display: flex;
@@ -59,7 +60,7 @@ section h2 {
   justify-content: center;
   justify-content: space-between;
 }
-.seleciona {
+.seleciona1, .seleciona2, .seleciona3, .seleciona4 {
   background-color: #FFFFFF;
   width: 172px;
   height: 172px;
@@ -69,12 +70,27 @@ section h2 {
   padding: 10px;
   margin-left: 16px;
 }
-section img {
+.borda {
+  width: 172px;
+  height: 172px;
+  filter: drop-shadow(0px 2px 2px #32B72F);
+  border: 2px solid #32B72F;
+  display: flex;
+  position: relative;
+}
+.borda ion-icon {
+  font-size: 19px;
+  color: #32B72F;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.seleciona1 img, .seleciona2 img, .seleciona3 img, .seleciona4 img {
   width: 144px;
   height: 87px;
   border-radius: 4px;
 }
-.seleciona h3 {
+.seleciona1 h3, .seleciona2 h3, .seleciona3 h3, .seleciona4 h3 {
   font-family: "'Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -82,13 +98,13 @@ section img {
   margin-top: 8px;
   margin-bottom: 4px;
 }
-.seleciona p {
+.seleciona1 p, .seleciona2 p, .seleciona3 p, .seleciona4 p {
   font-family: "'Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #A6A6A6;
 }
-.seleciona h4 {
+.seleciona1 h4, .seleciona2 h4, .seleciona3 h4, .seleciona4 h4 {
   font-family: "'Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -105,6 +121,7 @@ section img {
   align-items: center;
   position: fixed;
   bottom: 0;
+  z-index: 2;
 }
 .fechar-pedido {
   background-color: #CBCBCB;
