@@ -47,6 +47,7 @@ section h2 {
   font-weight: 400px;
   font-size: 26px;
   color: #333333;
+  margin-left: 10px;
   margin-top: 31px;
   margin-bottom: -17px;
 }
@@ -60,7 +61,7 @@ section h2 {
   justify-content: center;
   justify-content: space-between;
 }
-.seleciona1, .seleciona2, .seleciona3, .seleciona4 {
+.carnes > div, .bebidas > div, .sobremesas > div  {
   background-color: #FFFFFF;
   width: 172px;
   height: 172px;
@@ -85,12 +86,12 @@ section h2 {
   bottom: 10px;
   right: 10px;
 }
-.seleciona1 img, .seleciona2 img, .seleciona3 img, .seleciona4 img {
+.carnes > div img, .bebidas > div img, .sobremesas > div img {
   width: 144px;
   height: 87px;
   border-radius: 4px;
 }
-.seleciona1 h3, .seleciona2 h3, .seleciona3 h3, .seleciona4 h3 {
+.carnes > div h3, .bebidas > div h3, .sobremesas > div h3 {
   font-family: "'Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -98,13 +99,13 @@ section h2 {
   margin-top: 8px;
   margin-bottom: 4px;
 }
-.seleciona1 p, .seleciona2 p, .seleciona3 p, .seleciona4 p {
+.carnes > div p, .bebidas > div p, .sobremesas > div p {
   font-family: "'Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #A6A6A6;
 }
-.seleciona1 h4, .seleciona2 h4, .seleciona3 h4, .seleciona4 h4 {
+.carnes > div h4, .bebidas > div h4, .sobremesas > div h4 {
   font-family: "'Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
